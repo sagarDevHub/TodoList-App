@@ -1,0 +1,29 @@
+.todoItems{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0px;
+    align-items: center;
+}
+
+.todoItems-container{
+    display: flex;
+}
+
+.todoItems-text{
+    padding-left: 16px;
+    font-size: 22px;
+}
+
+.cross-icon{
+    cursor: pointer;
+    padding: 25px;
+}
+
+.line-through{
+    text-decoration: line-through solid #ADADAD 3px;
+}
+
+.checked{
+    color: #ff6739;
+    margin-left: 10px;
+}
